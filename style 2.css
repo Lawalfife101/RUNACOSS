@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 101vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-attachment: fixed;
+}
+.first {
+    margin: 60px auto 0;
+    padding: 35px;
+    width: 500px;
+    height: 550px;
+    border: 6px solid #fff;
+    border-radius: 15px 0 20px 0;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.first h1 {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 45px 0;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.first p {
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.first input {
+    font: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 4px 0 5px 0;
+    border: 2px solid #fff;
+    background: transparent;
+    height: 20px;
+}
+.first button {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5%;
+    padding: 10px 15px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: none;
+    height: 35px;
+    background: transparent;
+    color: #fff;
+    letter-spacing: 1px;
+    background:rgb(146, 6, 6);
+
+}
+.first button:hover {
+    color: brown;
+}
+body button {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    display: block;
+    margin: 0 25px;
+    border: none;   
+    margin-bottom: 10px5; 
+    margin-top: 37px ;
+    background:rgb(146, 6, 6);
+    color: #fff;
+}
+.btn{
+        display: block;
+        line-height: 20px;
+        text-align: center;
+        cursor: pointer;
+        letter-spacing: 1px;
+        font-weight: 15px;
+}
+body a{
+    display: inline-block;
+    font-size: larger;
+}

@@ -1,0 +1,174 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 20px ;
+    background-attachment: fixed;
+    margin:0;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin:0;
+    padding:40 px;
+    text-align: center;
+}
+nav{
+    padding: 20 px 100px;
+    display: flex;   
+    align-items:center;
+    justify-content:space-between;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.logo{
+    font-size: 20px;
+    color: beige;
+    padding: 15px;
+}
+.menu ul li {
+    margin-left: 20px;
+    margin:0 70px;
+    display: inline-block;
+    text-align: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: aliceblue;
+    text-transform: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 25px;
+    transition: all 0.3s ease-in-out;
+    justify-content: left;
+    text-align: center;
+    
+}
+.sign-up a{
+    padding: 5px 20px;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.body-text button{ 
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background:rgb(146, 6, 6);
+    color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 10PX;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+.menu ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.header{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(./7.jpg);
+    background-size: cover;
+    height: 101vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+.body-text h1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 180px;
+}
+.body-text a{
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.sign-up button{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background:rgb(146, 6, 6);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    margin-right: 20px;
+}
+.body-logo h3{
+    font-size: 20px;
+    margin: 0;
+}   
+    
+.body-logo{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.body-logo img{
+    max-width: 100px;
+    height:auto;
+    float: left;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.okay ul li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.okay ul{
+    list-style-type: square;
+    margin-left: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.okay h3 {
+    color: #671212;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.okay p {
+    color: #000000;
+    line-height: 1.5;
+}
+.okay h2 {
+    color: #000000;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.okay {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(212, 211, 189);
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    background-size: cover;
+    background-position: center center; 
+    background-clip: padding-box; 
+    background-origin: content-box; 
+}
+    
